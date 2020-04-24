@@ -1,0 +1,62 @@
+/*la page en général*/
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+/*les sous partie*/
+.affi1{
+    font-weight: bold;
+    font-size: 28px;
+    font-style: italic;
+    color: black;
+}
+.navbar-toggle .icon-bar{
+    background-color: gray;
+    height: 4px;
+}
+
+#nav-list > li {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+#nav-list > li :hover{
+    background-color: rgb(6, 10, 253);
+    color: black;
+}
+/*les grands case*/
+div section {
+    margin: 12px;
+    padding: 12px;
+    font-size: 16px;
+    color: black;
+}
+#page-heading{
+    font-size: 2.5em;
+}
+.text-center{
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+#section-1{
+    background-color: rgb(22, 253, 1);
+}
+
+#section-2 {
+    background-color: rgb(251, 255, 4);
+}
+
+#section-3 {
+    background-color: rgb(245, 8, 8);
+}
+
+#text > h3 {
+    margin-bottom: 15px;
+}
+
+#header-nav .navbar-brand {
+    position: absolute;
+    left: 10px;
+}
